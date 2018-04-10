@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<regions>
+		<region name="TheArbor" type="GROUND" influence="1" x="1" y="2497">
+			<actionpos x="100" y="50"/>
+			<unitpos x="135" y="90"/>
+			<texture filename="TheArbor.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="RedwyneStraights" type="SEA" x="0" y="1984">
+			<actionpos x="80" y="140"/>
+			<unitpos x="410" y="650"/>
+			<texture filename="RedwyneStraights.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="SummerSea" type="SEA" x="965" y="2229">
+			<actionpos x="440" y="70"/>
+			<unitpos x="360" y="400"/>
+			<texture filename="SummerSea.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Oldtown" type="GROUND" building="1" x="135" y="2125">
+			<actionpos x="215" y="290"/>
+			<unitpos x="210" y="90"/>
+			<texture filename="Oldtown.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Starfall" type="GROUND" resources="1" x="487" y="2316">
+			<actionpos x="236" y="176"/>
+			<unitpos x="81" y="170"/>
+			<texture filename="Starfall.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Dorn" type="GROUND" influence="1" x="645" y="2324">
+			<actionpos x="429" y="165"/>
+			<unitpos x="94" y="56"/>
+			<texture filename="Dorn.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Sunspear" type="GROUND" building="1" influence="1" resources="1" x="935" y="2332">
+			<actionpos x="310" y="50"/>
+			<unitpos x="222" y="71"/>
+			<texture filename="Sunspear.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Kingswood" type="GROUND" influence="1" x="844" y="1635">
+			<actionpos x="290" y="180"/>
+			<unitpos x="75" y="340"/>
+			<texture filename="Kingswood.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="SeaOfDorn" type="SEA" x="765" y="2144">
+			<actionpos x="410" y="150"/>
+			<unitpos x="150" y="120"/>
+			<texture filename="SeaOfDorn.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="DornishMarches" type="GROUND" resources="1" x="427" y="2037">
+			<actionpos x="450" y="90"/>
+			<unitpos x="180" y="110"/>
+			<texture filename="DornishMarches.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="StormsEnd" type="GROUND" building="1" x="961" y="1891">
+			<actionpos x="60" y="150"/>
+			<unitpos x="180" y="250"/>
+			<texture filename="StormsEnd.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Highgarden" type="GROUND" building="2" resources="2" x="227" y="1898">
+			<actionpos x="120" y="70"/>
+			<unitpos x="295" y="170"/>
+			<texture filename="Highgarden.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="TheReach" type="GROUND" building="1" x="458" y="1789">
+			<actionpos x="320" y="150"/>
+			<unitpos x="120" y="180"/>
+			<texture filename="TheReach.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Dragonstone" type="GROUND" building="2" influence="1" resources="1" x="1229" y="1471">
+			<actionpos x="85" y="94"/>
+			<unitpos x="165" y="70"/>
+			<texture filename="Dragonstone.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="ShipbreakerBay" type="SEA" x="1077" y="1322">
+			<actionpos x="220" y="460"/>
+			<unitpos x="290" y="690"/>
+			<texture filename="ShipbreakerBay.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="BlackwaterBay" type="SEA" x="955" y="1539">
+			<actionpos x="101" y="194"/>
+			<unitpos x="160" y="86"/>
+			<texture filename="BlackwaterBay.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="KingsLanding" type="GROUND" building="2" influence="2" x="858" y="1642">
+			<actionpos x="174" y="167"/>
+			<unitpos x="48" y="81"/>
+			<texture filename="KingsLanding.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Blackwater" type="GROUND" resources="2" x="459" y="1593">
+			<actionpos x="80" y="200"/>
+			<unitpos x="292" y="118"/>
+			<texture filename="Blackwater.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="SearoadMarches" type="GROUND" resources="1" x="227" y="1633">
+			<actionpos x="185" y="230"/>
+			<unitpos x="139" y="105"/>
+			<texture filename="SearoadMarches.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="CrackclawPoint" type="GROUND" building="1" x="822" y="1415">
+			<actionpos x="220" y="120"/>
+			<unitpos x="100" y="168"/>
+			<texture filename="CrackclawPoint.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="StoneySept" type="GROUND" influence="1" x="456" y="1422">
+			<actionpos x="60" y="220"/>
+			<unitpos x="75" y="193"/>
+			<texture filename="StoneySept.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Lannisport" type="GROUND" building="2" resources="2" x="187" y="1364">
+			<actionpos x="210" y="101"/>
+			<unitpos x="240" y="185"/>
+			<texture filename="Lannisport.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="TheGoldenSound" type="SEA" x="35" y="1299">
+			<actionpos x="156" y="169"/>
+			<unitpos x="90" y="300"/>
+			<texture filename="TheGoldenSound.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Harrenhal" type="GROUND" building="1" influence="1" x="669" y="1395">
+			<actionpos x="42" y="44"/>
+			<unitpos x="129" y="140"/>
+			<texture filename="Harrenhal.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Riverrun" type="GROUND" building="2" influence="1" resources="1" x="488" y="1265">
+			<actionpos x="193" y="67"/>
+			<unitpos x="80" y="136"/>
+			<texture filename="Riverrun.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Pyke" type="GROUND" building="2" influence="1" resources="1" x="98" y="1093">
+			<actionpos x="210" y="135"/>
+			<unitpos x="60" y="90"/>
+			<texture filename="Pyke.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="IronmansBay" type="SEA" x="51" y="976">
+			<actionpos x="400" y="170"/>
+			<unitpos x="60" y="385"/>
+			<texture filename="IronmansBay.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="Seagard" type="GROUND" building="2" influence="1" resources="1" x="437" y="1034">
+			<actionpos x="85" y="33"/>
+			<unitpos x="164" y="136"/>
+			<texture filename="Seagard.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="TheNarrowSea" type="SEA" x="713" y="680">
+			<actionpos x="670" y="460"/>
+			<unitpos x="450" y="139"/>
+			<texture filename="TheNarrowSea.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="WidowsWatch" type="GROUND" resources="1" x="937" y="552">
+			<actionpos x="55" y="135"/>
+			<unitpos x="100" y="50"/>
+			<texture filename="WidowsWatch.png"/>
+            <tokenpos x="175" y="72"/>
+		</region>
+		<region name="TheStonyShore" type="GROUND" resources="1" x="149" y="415">
+			<actionpos x="76" y="164"/>
+			<unitpos x="260" y="220"/>
+			<texture filename="TheStonyShore.png"/>
+            <tokenpos x="116" y="285"/>
+		</region>
+		<region name="WhiteHarbor" type="GROUND" building="1" x="745" y="414">
+			<actionpos x="132" y="219"/>
+			<unitpos x="190" y="80"/>
+			<texture filename="WhiteHarbor.png"/>
+            <tokenpos x="175" y="336"/>
+		</region>
+		<region name="Winterfell" type="GROUND" building="2" influence="1" resources="1" x="259" y="161">
+			<actionpos x="611" y="152"/>
+			<unitpos x="355" y="520"/>
+			<texture filename="Winterfell.png"/>
+            <tokenpos x="216" y="199"/>
+		</region>
+		<region name="TheShiveringSea" type="SEA" x="1025" y="0">
+			<actionpos x="350" y="320"/>
+			<unitpos x="215" y="600"/>
+			<texture filename="TheShiveringSea.png"/>
+            <tokenpos x="210" y="460"/>
+		</region>
+		<region name="Karhold" type="GROUND" influence="1" x="952" y="142">
+			<actionpos x="282" y="116"/>
+			<unitpos x="165" y="205"/>	
+			<texture filename="Karhold.png"/>
+            <tokenpos x="98" y="98"/>
+		</region>
+		<region name="CastleBlack" type="GROUND" influence="1" x="605" y="0">
+			<actionpos x="95" y="191"/>
+			<unitpos x="335" y="50"/>
+			<texture filename="CastleBlack.png"/>
+            <tokenpos x="120" y="85"/>
+		</region>
+		<region name="SunsetSea" type="SEA" x="0" y="827">
+			<actionpos x="50" y="150"/>
+			<unitpos x="90" y="1040"/>
+			<texture filename="SunsetSea.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="BayOfIce" type="SEA" x="0" y="0">
+			<actionpos x="292" y="115"/>
+			<unitpos x="90" y="380"/>
+			<texture filename="BayOfIce.png"/>
+            <tokenpos x="160" y="245"/>
+		</region>
+		<region name="FlintsFinger" type="GROUND" building="1" x="161" y="858">
+			<actionpos x="206" y="63"/>
+			<unitpos x="50" y="100"/>
+			<texture filename="FlintsFinger.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="GreywaterWatch" type="GROUND" resources="1" x="397" y="809">
+			<actionpos x="120" y="75"/>
+			<unitpos x="73" y="150"/>
+			<texture filename="GreywaterWatch.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="MoatCalin" type="GROUND" building="1" x="561" y="767">
+			<actionpos x="87" y="135"/>
+			<unitpos x="83" y="244"/>
+			<texture filename="MoatCalin.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="TheEyrie" type="GROUND" building="1" influence="1" resources="1" x="949" y="1265">
+			<actionpos x="161" y="135"/>
+			<unitpos x="106" y="91"/>
+			<texture filename="TheEyrie.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="TheMountainsOfTheMoon" type="GROUND" resources="1" x="711" y="1071">
+			<actionpos x="104" y="214"/>
+			<unitpos x="428" y="124"/>
+			<texture filename="TheMountainsOfTheMoon.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="TheTwins" type="GROUND" influence="1" x="606" y="1057">
+			<actionpos x="110" y="150"/>
+			<unitpos x="194" y="62"/>
+			<texture filename="TheTwins.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+		<region name="TheFingers" type="GROUND" resources="1" x="843" y="947">
+			<actionpos x="225" y="150"/>
+			<unitpos x="80" y="150"/>
+			<texture filename="TheFingers.png"/>
+            <tokenpos x="0" y="0"/>
+		</region>
+	</regions>
+	<neighbors>
+		<region name="BayOfIce">
+			<neighbor name="CastleBlack"/>
+			<neighbor name="Winterfell"/>
+			<neighbor name="TheStonyShore"/>
+			<neighbor name="SunsetSea"/>
+			<neighbor name="FlintsFinger"/>
+			<neighbor name="GreywaterWatch"/>
+		</region>
+		<region name="TheShiveringSea">
+			<neighbor name="CastleBlack"/>
+			<neighbor name="Karhold"/>
+			<neighbor name="Winterfell"/>
+			<neighbor name="WhiteHarbor"/>
+			<neighbor name="WidowsWatch"/>
+			<neighbor name="TheNarrowSea"/>
+		</region>
+		<region name="Winterfell">
+			<neighbor name="TheStonyShore"/>
+			<neighbor name="WhiteHarbor"/>
+			<neighbor name="Karhold"/>
+			<neighbor name="CastleBlack"/>
+			<neighbor name="MoatCalin"/>
+		</region>
+		<region name="CastleBlack">
+			<neighbor name="Karhold"/>
+		</region>
+		<region name="WhiteHarbor">
+			<neighbor name="WidowsWatch"/>
+			<neighbor name="MoatCalin"/>
+			<neighbor name="TheNarrowSea"/>
+		</region>
+		<region name="WidowsWatch">
+			<neighbor name="TheNarrowSea"/>
+		</region>
+		<region name="SunsetSea">
+			<neighbor name="FlintsFinger"/>
+			<neighbor name="IronmansBay"/>
+			<neighbor name="TheGoldenSound"/>
+			<neighbor name="SearoadMarches"/>
+			<neighbor name="Highgarden"/>
+			<neighbor name="RedwyneStraights"/>
+		</region>
+		<region name="FlintsFinger">
+			<neighbor name="GreywaterWatch"/>
+			<neighbor name="IronmansBay"/>
+		</region>
+		<region name="IronmansBay">
+			<neighbor name="GreywaterWatch"/>
+			<neighbor name="Pyke"/>
+			<neighbor name="Seagard"/>
+			<neighbor name="Riverrun"/>
+			<neighbor name="TheGoldenSound"/>
+		</region>
+		<region name="TheGoldenSound">
+			<neighbor name="Riverrun"/>
+			<neighbor name="Lannisport"/>
+			<neighbor name="SearoadMarches"/>
+		</region>
+		<region name="MoatCalin">
+			<neighbor name="GreywaterWatch"/>
+			<neighbor name="TheNarrowSea"/>
+			<neighbor name="Seagard"/>
+			<neighbor name="TheTwins"/>
+		</region>
+		<region name="GreywaterWatch">
+			<neighbor name="Seagard"/>
+		</region>
+		<region name="TheTwins">
+			<neighbor name="TheFingers"/>
+			<neighbor name="Seagard"/>
+			<neighbor name="TheNarrowSea"/>
+			<neighbor name="TheMountainsOfTheMoon"/>
+		</region>
+		<region name="TheFingers">
+			<neighbor name="TheNarrowSea"/>
+			<neighbor name="TheMountainsOfTheMoon"/>
+		</region>
+		<region name="Seagard">
+			<neighbor name="Riverrun"/>
+		</region>
+		<region name="TheEyrie">
+			<neighbor name="TheNarrowSea"/>
+			<neighbor name="TheMountainsOfTheMoon"/>
+		</region>
+		<region name="TheMountainsOfTheMoon">
+			<neighbor name="TheNarrowSea"/>
+			<neighbor name="CrackclawPoint"/>
+		</region>
+		<region name="TheNarrowSea">
+			<neighbor name="CrackclawPoint"/>
+			<neighbor name="ShipbreakerBay"/>
+		</region>
+		<region name="Riverrun">
+			<neighbor name="Lannisport"/>
+			<neighbor name="Harrenhal"/>
+			<neighbor name="StoneySept"/>
+		</region>
+		<region name="Harrenhal">
+			<neighbor name="StoneySept"/>
+			<neighbor name="CrackclawPoint"/>
+			<neighbor name="Blackwater"/>
+		</region>
+		<region name="Lannisport">
+			<neighbor name="SearoadMarches"/>
+			<neighbor name="StoneySept"/>
+		</region>
+		<region name="RedwyneStraights">
+			<neighbor name="Highgarden"/>
+			<neighbor name="Oldtown"/>
+			<neighbor name="Starfall"/>
+			<neighbor name="Dorn"/>
+			<neighbor name="TheArbor"/>
+			<neighbor name="SummerSea"/>
+		</region>
+		<region name="StoneySept">
+			<neighbor name="Blackwater"/>
+			<neighbor name="SearoadMarches"/>
+		</region>
+		<region name="SearoadMarches">
+			<neighbor name="Highgarden"/>
+			<neighbor name="Blackwater"/>
+			<neighbor name="TheReach"/>
+		</region>
+		<region name="Blackwater">
+			<neighbor name="TheReach"/>
+			<neighbor name="CrackclawPoint"/>
+			<neighbor name="KingsLanding"/>
+		</region>
+		<region name="CrackclawPoint">
+			<neighbor name="KingsLanding"/>
+			<neighbor name="ShipbreakerBay"/>
+			<neighbor name="BlackwaterBay"/>
+		</region>
+		<region name="KingsLanding">
+			<neighbor name="BlackwaterBay"/>
+			<neighbor name="TheReach"/>
+			<neighbor name="Kingswood"/>
+		</region>
+		<region name="BlackwaterBay">
+			<neighbor name="ShipbreakerBay"/>
+			<neighbor name="Kingswood"/>
+		</region>
+		<region name="Highgarden">
+			<neighbor name="TheReach"/>
+			<neighbor name="Oldtown"/>
+			<neighbor name="DornishMarches"/>
+		</region>
+		<region name="TheReach">
+			<neighbor name="DornishMarches"/>
+			<neighbor name="Kingswood"/>
+		</region>
+		<region name="DornishMarches">
+			<neighbor name="Oldtown"/>
+			<neighbor name="Starfall"/>
+			<neighbor name="Dorn"/>
+			<neighbor name="Kingswood"/>
+			<neighbor name="StormsEnd"/>
+			<neighbor name="SeaOfDorn"/>
+		</region>
+		<region name="Dorn">
+			<neighbor name="Starfall"/>
+			<neighbor name="SummerSea"/>
+			<neighbor name="SeaOfDorn"/>
+			<neighbor name="Sunspear"/>
+		</region>
+		<region name="Sunspear">
+			<neighbor name="SummerSea"/>
+			<neighbor name="SeaOfDorn"/>
+		</region>
+		<region name="SummerSea">
+			<neighbor name="SeaOfDorn"/>
+			<neighbor name="ShipbreakerBay"/>
+		</region>
+		<region name="ShipbreakerBay">
+			<neighbor name="SeaOfDorn"/>
+			<neighbor name="StormsEnd"/>
+			<neighbor name="Kingswood"/>
+			<neighbor name="Dragonstone"/>
+		</region>
+		<region name="StormsEnd">
+			<neighbor name="SeaOfDorn"/>
+			<neighbor name="Kingswood"/>
+		</region>
+	</neighbors>
+</map>

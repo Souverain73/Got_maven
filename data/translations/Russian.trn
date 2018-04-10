@@ -1,0 +1,166 @@
+[common]
+playerRemoveAction "Игрок убрал приказ в регионе %s"
+playerSetAction "Игрок установил приказ в регионе %s"
+playerSetToken "Игрок кладет жетон власти в регионе %s"
+playerMoveUnits "Игрок %s перемещает юнитов из региона %s в %s"
+playerKillUnitInRegion "Игрок %s убивает юнита %s в регионе %s"
+playerChangeUnits "Игрок %s меняет состав войск в регионе %s"
+collectInfluence "Вы получаете %d жетонов влияния"
+playerCollectInfluence "Игрок %s получает %d жетонов влияния"
+setRestrictedActions "Установлены ограничения приказов"
+looseMoney "Вы теряете %d жетонов влияния"
+noRegionsForHire "Нет регионов с замками или крепостями. Вы не можете набрать войска"
+waitForPlayer "Ожидание игрока %s"
+waitForOtherPlayers "Ожидание других игроков"
+decide "Примите решение"
+
+[planning]
+enter "Фаза планирования"
+selectRegion "Выберите регион для установки приказа"
+selectAction "Выберите приказ"
+
+[move]
+enter "Фаза походов"
+selectRegion "Выберите регион, откуда вы хотите совершить ход"
+selectUnits "Выберите юнитов которыми вы хотите походить"
+selectTarget "Выберите куда вы хотите совершить ход"
+selectSource "Выберите регион, откуда вы хотите совршить ход"
+placePowerToken "Оставить жетон влияния в покидаемом регионе?"
+playerPlacePowerTokenInRegion "Игрок %s оставляет жетон влияния в регионе %s"
+
+[fire]
+playerPlayActionFromTo "Игрок играет приказ с %s на %s"
+selectRegion "Выберите приказ, который вы хотите использовать"
+selectTarget "Выберите, с какого региона убрать приказ"
+
+[help]
+initBattleFromTo "%s нападает на %s"
+playerHelpNobody "Игрок %s не помогает никому"
+playerHelpAttacker "Игрок %s помогает атакующим"
+playerHelpDefender "Игрок %s помогает защищающимся"
+selectSide "Выберите, кому вы будете помогать в этом бою"
+
+[selectHouseCard]
+selectCard "Выберите карту дома"
+playerSelectCard "Игрок %s выбрал карту дома %s"
+
+[battle]
+battleEnd "Битва закончена. Игрок %s победил, игрока %s"
+winnerMove "Победивший игрок занимает регион %s"
+playerSetOverrides "Игрок %s устанавливает особые условия боя"
+playerRemoveHouseCard "Игрок %s убирает из колоды игрока %s карту %s"
+winnerBanner "Игрок %s победил!"
+
+[retreat]
+suplyKill "Не хватает снабжения, выберите %d юнитов для убийства"
+killUnits "Выбирите %d юнитов для убийства"
+selectRegion "Выберите регион для отступления"
+noRegions "Некуда отступать, все юниты умирают"
+wait "Ожидание отступления проигравшего игрока"
+
+[power]
+selectRegion "Выберите регион"
+selectAction "Выберите действие"
+playerHireUnits "Игрок %s нанимает войска"
+playerCollectInfluence "Buhjr %s получает %d жетонов власти с региона %s"
+
+[hire]
+selectSource "Выберите регион в котором вы хотите нанять войска"
+selectTarget "Выберите регион в котором вы хотите разместить войска"
+hireUnits "Наберите войска"
+
+[collectUnits]
+needKill "Превышен предел снабжения. Необходимо распустить лишние войска"
+
+[auction]
+selectCount "Выберите, сколько монет вы хотите поставить"
+
+[vesteros]
+cardOpen "Из %d колоды открыта карта %s"
+playerSelectItem "Игрок выбирает %d вариант"
+
+[houseCards]
+CatelynStark "CatelynStark"
+TheBlackfish "TheBlackfish"
+SerRoderickCassel "SerRoderickCassel"
+GreationUmber "GreationUmber"
+RooseBolton "RooseBolton"
+RobStark "RobStark"
+EddardStark "EddardStark"
+CerseiLanister "CerseiLanister"
+TyrionLanister "TyrionLanister"
+SerKevanLanister "SerKevanLanister"
+TheHound "TheHound"
+SerJaimeLanister "SerJaimeLanister"
+SerGregorClegane "SerGregorClegane"
+TywinLanister "TywinLanister"
+Patchface "Patchface"
+Melisandre "Melisandre"
+SalladhorSaan "SalladhorSaan"
+BrienneofTarth "BrienneofTarth"
+SerDawosSeaworth "SerDawosSeaworth"
+RenlyBaratheon "RenlyBaratheon"
+StanisBaratheon "StanisBaratheon"
+AeronDamphair "AeronDamphair"
+AshaGreyjoy "AshaGreyjoy"
+DagmarCleftjaw "DagmarCleftjaw"
+BalonGreyjoy "BalonGreyjoy"
+TheonGreyjoy "TheonGreyjoy"
+VictarionGreyjoy "VictarionGreyjoy"
+EuronCrownEye "EuronCrownEye"
+QueenofThorns "QueenofThorns"
+AlesterFlorent "AlesterFlorent"
+MargaeryTyrell "MargaeryTyrell"
+RandyllTyrell "RandyllTyrell"
+SerGarlanTyrell "SerGarlanTyrell"
+SerLorasTyrell "SerLorasTyrell"
+MaceTyrell "MaceTyrell"
+DoranMartell "DoranMartell"
+ArianneMartell "ArianneMartell"
+NymeriaSand "NymeriaSand"
+Darkstar "Darkstar"
+ObaraSand "ObaraSand"
+AreoHotah "AreoHotah"
+TheRedViper "TheRedViper"
+playerDropCard "Игрок %s скидывает карту '%s'"
+playerRewindCard "Игрок %s возвращает себе карту '%s'"
+playerRewindAll "Игрок %s возвращает себе все карты"
+CerseiSelect "Выберите какой приказ убрать"
+CerseiWait "Серцея решает какой приказ убрать"
+CerseiRemove "Серцея убирает приказ с региона %s"
+CerseiNothingToRemove "У противника не осталось приказов"
+TywinGetPower "Игрок %s получает 2 жетона влияния"
+TyrionRemoveCard "Убрать карту противника?"
+TyrionWait "Тирион решает, убрать ли карту игрока"
+AeronChangeCard "Поменять карту?"
+
+[vesterosCard]
+AutumnRains "Дожди осени"
+BattleOfKings "Битва королей"
+BlackWings "Черные крылья, черные слова"
+CollectUnits "Сбор войск"
+FeastForCrows "Пир для ворон"
+GameOfThrones "Игра престолов"
+PutToSword "Преданы мечу"
+SeaOfStorms "Море штормов"
+StormOfSwords "Буря мечей
+SummerTime "Последние дни лета"
+Suply "Снабжение"
+ThroneOfSwords "Трон из клинков"
+WebOfLie "Паутина лжи"
+Wildlings "Нашествие одичалых"
+WinterTime "Зима близко"
+
+[wildlings]
+king "Король за стеной"
+robbers "Разбойники Гремучей Рубашки"
+silence "Тишина за стеной"
+killers "Убийцы ворон"
+riders "Наездники на мамонтах"
+squad "Передовой отряд" 
+horde "Наступление орды" 
+scout "Разведчик-оборотень" 
+gathering "Сбор на молоководной"
+returnMoney "Вы возвращаете %d жетонов влияния"
+looseAllMoney "Вы теряете все жетоны влияния"
+dropCard "Вы сбрасываете карту %s"

@@ -1,0 +1,11 @@
+#version 330
+
+in vec2 UV;
+out vec4 color;
+uniform vec4 overlay;
+uniform vec4 multiply;
+uniform sampler2D myTextureSampler;
+
+void main(){
+	color = texture(myTextureSampler, UV) * multiply + overlay;
+}

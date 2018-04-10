@@ -1,0 +1,32 @@
+00:31 DEBUG: [kryonet] Connection 2 received TCP: Attack
+
+00:31  WARN: Change state toStepByStepState;
+
+00:31 DEBUG: [kryo] Write: ChangeState
+00:31 DEBUG: [kryonet] Connection 2 sent TCP: ChangeState (6)
+00:31 DEBUG: [kryo] Write: ChangeState
+00:31 DEBUG: [kryonet] Connection 1 sent TCP: ChangeState (6)
+
+00:31 DEBUG: [kryo] Read: Ready [ready=true]
+00:31 DEBUG: [kryo] Read: Ready [ready=true]
+
+00:31 DEBUG: [kryonet] Connection 2 sent TCP: InitBattle (7)
+00:31 DEBUG: [kryonet] Connection 1 sent TCP: InitBattle (7)
+
+00:31 DEBUG: [kryo] Write: PlayerTurn [playerID=1]
+00:31 DEBUG: [kryo] Write: PlayerTurn [playerID=1]
+
+00:31 DEBUG: [kryo] Read: Ready [ready=false]
+
+00:31 DEBUG: [kryo] Write: PlayerTurn [playerID=0]
+00:31 DEBUG: [kryo] Write: PlayerTurn [playerID=0]
+
+00:31 DEBUG: [kryo] Read: Ready [ready=true]
+
+00:31 DEBUG: [kryo] Write: PlayerTurn [playerID=1]
+00:31 DEBUG: [kryo] Write: PlayerTurn [playerID=1]
+
+00:31 DEBUG: [kryo] Read: Ready [ready=false]
+
+00:31 DEBUG: [kryo] Write: PlayerTurn [playerID=0]
+00:31 DEBUG: [kryo] Write: PlayerTurn [playerID=0]

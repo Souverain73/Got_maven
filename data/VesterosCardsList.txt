@@ -1,0 +1,32 @@
+CollectUnits - смена фазы
+CollectUnits 
+CollectUnits
+SummerTime
+WinterTime
+ThroneOfSwords - выбор
+ThroneOfSwords
+Suply - пересчет
+Suply
+Suply
+
+WinterTime
+SummerTime
+BlackWings - выбор
+BlackWings
+BattleOfKings - смена фазы
+BattleOfKings
+BattleOfKings
+GameOfThrones - пересчет
+GameOfThrones
+GameOfThrones
+
+Wildlings - смена фазы
+Wildlings
+Wildlings
+AutumnRains
+FeastForCrows
+WebOfLie
+SeaOfStorms
+PutToSword
+PutToSword
+StormOfSwords

@@ -1,0 +1,13 @@
+#version 330
+layout(location = 0) in vec4 vertexPosition;
+layout(location = 1) in vec2 UVCoord;
+
+uniform mat4 MV;
+uniform mat4 Proj;
+
+out vec2 UV;
+
+void main(){
+	gl_Position = Proj * MV * vertexPosition;
+	UV = UVCoord;
+}
